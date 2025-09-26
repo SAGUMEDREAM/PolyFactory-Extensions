@@ -1,0 +1,3 @@
+accessWidener v2 named
+mutable field net/minecraft/network/handler/PacketBundleHandler MAX_PACKETS I
+accessible field net/minecraft/network/handler/PacketBundleHandler MAX_PACKETS I

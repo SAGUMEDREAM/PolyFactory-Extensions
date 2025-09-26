@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "polyfactory-extensions",
+	"version": "${version}",
+	"name": "PolyFactory-Extensions",
+	"description": "A PolyFactory Extensions!",
+	"authors": [
+		"稀神灵梦"
+	],
+	"contact": {
+		"sources": "https://github.com/SAGUMEDREAM/PolyFactory-Extensisons"
+	},
+	"icon": "assets/polyfactory-extensions/icon.png",
+	"license": "LGPL-3.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "cc.thonly.polyfactory.PolyFactoryExtension"
+		],
+		"fabric-datagen": [
+			"cc.thonly.polyfactory.PolyFactoryExtensionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"polyfactory.extensions.mixin.json"
+	],
+	"accessWidener": "polyfactory.extensions.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=1.21.7",
+		"java": ">=21",
+		"fabric-api": "*",
+		"polyfactory": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "cc.thonly.polyfactory.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockCollectionExtensionMixin",
+    "BlockCollectionMixin",
+    "DataGenInitMixin",
+    "FactoryItemsMixin",
+    "MinecraftServerMixin",
+    "PacketBundleHandlerMixin",
+    "ServerWorldMixin",
+    "TurntableBlockMixin",
+    "TurntableBlockModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "item.polyfactory-extensions.slime_wrench": "粘液扳手",
+  "item.wrench.select.fail": "你选择的区域太大了! %s > %s",
+  "item.wrench.select.finish": "两个点已选择完毕!",
+  "item.wrench.select.first": "选择了第一个点: %s",
+  "item.wrench.select.second": "选择了第二个点: %s",
+  "item.wrench.select.success": "完成"
+}
